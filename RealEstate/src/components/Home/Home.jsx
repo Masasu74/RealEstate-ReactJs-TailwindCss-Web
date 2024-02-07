@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar.jsx";
-
+import Hero from "../Hero/Hero.jsx";
 function Home() {
   return (
-    <div className="container">
-      <Navbar />
-
+    <div className="container ">
+      <Hero/>
     </div>
   );
 }

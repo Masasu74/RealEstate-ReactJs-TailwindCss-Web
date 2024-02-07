@@ -10,12 +10,12 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex container w-full justify-between items-center flex-col gap-3">
+    <nav className="py-4 flex container w-full justify-between items-center flex-col gap-3 ">
       <div className="flex items-center justify-between w-full ">
 
       
 <div className="flex items-center justify-between xl:basis-2/4 lg:basis-3/4 gap-10 ">
-        <div className="flex-none">
+        <div className="flex-none cursor-pointer">
           <img src={Logo} alt="" />
         </div>
         <div className="hidden md:flex">
