@@ -6,7 +6,7 @@ import { IoSearch } from "react-icons/io5";
 
 function Hero() {
   return (
-    <div className="  flex flex-col gap-16 pb-52 container mx-auto px-6 overflow-x:hidden ">
+    <div className="max-h-fit  flex flex-col gap-16 pb-52 container mx-auto px-6 overflow-x:hidden lg:max-h-screen ">
       <Navbar />
       <div className="flex flex-col md:flex-row-reverse gap-10 md:gap-5 text-primary lg:relative">
         <div className="md:basis-1/2 ">
