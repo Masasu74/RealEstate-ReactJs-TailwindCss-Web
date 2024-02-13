@@ -7,9 +7,7 @@ import person4 from "../../assets/person4.png";
 import person5 from "../../assets/person5.png";
 import { IoSearch } from "react-icons/io5";
 import quote from "../../assets/quote.png";
-import Qplane from "../../assets/Qplane.png";
-import logoFooter from "../../assets/logoFooter.png";
-
+import Footer from "../Footer/Footer.jsx"
 function About() {
   return (
     <div>
@@ -113,7 +111,7 @@ function About() {
           </p>
         </div>
         <div className="flex gap-10 flex-row flex-wrap md:flex-nowrap">
-        <div className="bg-secondary w-full  md:w-1/2 p-4 flex flex-col gap-4">
+          <div className="bg-secondary w-full  md:w-1/2 p-4 flex flex-col gap-4">
             <div className="flex flex-row ">
               <div>
                 <img src={quote} alt="" width="300px" />
@@ -127,8 +125,12 @@ function About() {
               </p>
             </div>
             <div>
-              <h1 className=" text-xl lg:text-2xl xl:text-3xl">Emerson Aminoff</h1>
-              <p className="text-xs lg:text-base xl:text-xl">3 bedroom apartmentt in Madrid</p>
+              <h1 className=" text-xl lg:text-2xl xl:text-3xl">
+                Emerson Aminoff
+              </h1>
+              <p className="text-xs lg:text-base xl:text-xl">
+                3 bedroom apartmentt in Madrid
+              </p>
             </div>
           </div>
           <div className="bg-secondary w-full  md:w-1/2 p-4 flex flex-col gap-4">
@@ -145,39 +147,18 @@ function About() {
               </p>
             </div>
             <div>
-              <h1 className=" text-xl lg:text-2xl xl:text-3xl">Emerson Aminoff</h1>
-              <p className="text-xs lg:text-base xl:text-xl">3 bedroom apartmentt in Madrid</p>
+              <h1 className=" text-xl lg:text-2xl xl:text-3xl">
+                Emerson Aminoff
+              </h1>
+              <p className="text-xs lg:text-base xl:text-xl">
+                3 bedroom apartmentt in Madrid
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-secondary  ">
-        <div className="mx-auto flex flex-col gap-5 md:gap-10 py-10 container   px-6 overflow-x:hidden items-center md:flex-row md:justify-center">
-          <div className="">
-           <img src={Qplane} width="100px" alt="" />
-          </div>
-          <div>
-            <h1 className="text-2xl">Subscribe to newsletter</h1>
-            <p>Get the latest news and interesting offers and real estate</p>
-            <div className="flex justify-between">
-            <input
-                type="email"
-                name=""
-                id=""
-                className=" basis-2/3 h-12 drop-shadow-sm shadow-xs outline-0 "
-                placeholder="Enter your Email address"
-              />
-               <div className=" basis-1/3 bg-blue w-32 cursor-pointer rounded-sm outline-0  hover:bg-hover focus:bg-hover  focus:ring-0 px-1 py-3 flex items-center justify-evenly text-white xl:w-36">
-            
-              <p>Subscribe</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer className="bg-blue w-full h-40 flex items-center justify-center">
-    <img src={logoFooter} alt="" />
-      </footer>
+
+     <Footer/>
     </div>
   );
 }

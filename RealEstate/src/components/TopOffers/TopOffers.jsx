@@ -16,51 +16,50 @@ function TopOffers() {
             </button>
           </div>
         </div>
-      <div className="flex flex-wrap items-center justify-center gap-10">
-      <div className="bg-white h-96 w-96  flex flex-col ">
-          <div className="">
-            <img src={apartment} alt="" />
+        <div className="flex flex-wrap items-center justify-center gap-10">
+          <div className="bg-white h-96 w-96  flex flex-col ">
+            <div className="">
+              <img src={apartment} alt="" />
+            </div>
+            <div className="flex flex-col justify-between p-4 gap-1">
+              <h2 className="text-xl font-bold">
+                Large 4-room apartment with a beautiful terrace
+              </h2>
+              <div>
+                <p className="text-blue font-bold">320 000€</p>
+                <p className="font-light">Barcelona IX. </p>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col justify-between p-4 gap-1">
-            <h2 className="text-xl font-bold">
-              Large 4-room apartment with a beautiful terrace
-            </h2>
-            <div>
-              <p className="text-blue font-bold">320 000€</p>
-              <p className="font-light">Barcelona IX. </p>
+          <div className="bg-white h-96 w-96 self-center flex flex-col ">
+            <div className="">
+              <img src={apartment} alt="" />
+            </div>
+            <div className="flex flex-col justify-between p-4 gap-1">
+              <h2 className="text-xl font-bold">
+                Large 4-room apartment with a beautiful terrace
+              </h2>
+              <div>
+                <p className="text-blue font-bold">320 000€</p>
+                <p className="font-light">Barcelona IX. </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white h-96 w-96 self-center flex flex-col ">
+            <div className="">
+              <img src={apartment} alt="" />
+            </div>
+            <div className="flex flex-col justify-between p-4 gap-1">
+              <h2 className="text-xl font-bold">
+                Large 4-room apartment with a beautiful terrace
+              </h2>
+              <div>
+                <p className="text-blue font-bold">320 000€</p>
+                <p className="font-light">Barcelona IX. </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="bg-white h-96 w-96 self-center flex flex-col ">
-          <div className="">
-            <img src={apartment} alt="" />
-          </div>
-          <div className="flex flex-col justify-between p-4 gap-1">
-            <h2 className="text-xl font-bold">
-              Large 4-room apartment with a beautiful terrace
-            </h2>
-            <div>
-              <p className="text-blue font-bold">320 000€</p>
-              <p className="font-light">Barcelona IX. </p>
-            </div>
-          </div>
-        </div>
-        <div className="bg-white h-96 w-96 self-center flex flex-col ">
-          <div className="">
-            <img src={apartment} alt="" />
-          </div>
-          <div className="flex flex-col justify-between p-4 gap-1">
-            <h2 className="text-xl font-bold">
-              Large 4-room apartment with a beautiful terrace
-            </h2>
-            <div>
-              <p className="text-blue font-bold">320 000€</p>
-              <p className="font-light">Barcelona IX. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-        
       </div>
     </div>
   );

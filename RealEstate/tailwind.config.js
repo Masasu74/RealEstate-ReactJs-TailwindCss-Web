@@ -11,6 +11,7 @@ export default {
       'hover':'#6E8AE9',
       'blue':'#1C3988',
       'white':'#FFFFFF',
+      'black':'#000000'
     },
     extend: {
       margin: ['responsive'],

@@ -16,7 +16,8 @@ function Navbar() {
       
 <div className="flex items-center justify-between xl:basis-2/4 lg:basis-3/4 gap-10 ">
         <div className="flex-none cursor-pointer">
-          <img src={Logo} alt="" />
+        <Link to="/"> <img src={Logo} alt="" /></Link>
+         
         </div>
         <div className="hidden md:flex">
           <ul className="flex gap-5 text-primary ">
@@ -24,7 +25,7 @@ function Navbar() {
               <Link to="">Top offers</Link>
             </li>
             <li>
-              <Link to="">Search in offers</Link>
+              <Link to="search">Search in offers</Link>
             </li>
             <li>
               <Link to="">References</Link>
