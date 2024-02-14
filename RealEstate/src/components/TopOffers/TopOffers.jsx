@@ -1,5 +1,6 @@
 import React from "react";
 import apartment from "../../assets/apartment.jpg";
+import { Link } from "react-router-dom";
 function TopOffers() {
   return (
     <div className=" bg-secondary ">
@@ -23,7 +24,7 @@ function TopOffers() {
             </div>
             <div className="flex flex-col justify-between p-4 gap-1">
               <h2 className="text-xl font-bold">
-                Large 4-room apartment with a beautiful terrace
+              <Link to="/details"> Large 4-room apartment with a beautiful terrace </Link>
               </h2>
               <div>
                 <p className="text-blue font-bold">320 000€</p>
